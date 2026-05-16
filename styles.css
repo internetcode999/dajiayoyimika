@@ -57,7 +57,7 @@ body::before {
 }
 
 /* mine */
-.hero-copy > p {
+.hero-copy>p {
     margin-top: .7rem;
 }
 
@@ -331,6 +331,7 @@ p {
     box-shadow: 0 30px 60px rgba(46, 46, 46, 0.09);
     backdrop-filter: blur(18px);
     z-index: 10;
+    flex-wrap: nowrap;
 }
 
 .nav-link {
@@ -388,12 +389,26 @@ p {
         left: 50%;
         right: auto;
         transform: translateX(-50%);
-        flex-wrap: wrap;
-        justify-content: center;
+        gap: 0.5rem;
+        padding: 0.75rem 1rem;
     }
 
     .nav-link {
-        padding: 0.75rem 0.95rem;
+        padding: 0.65rem 0.8rem;
+        font-size: 0.85rem;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 380px) {
+    .bottom-nav {
+        gap: 0.25rem;
+        padding: 0.65rem 0.75rem;
+    }
+
+    .nav-link {
+        padding: 0.55rem 0.65rem;
+        font-size: 0.75rem;
     }
 }
 
