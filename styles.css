@@ -40,7 +40,7 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'GT Flexa Mono', monospace;
     color: var(--text);
     background: radial-gradient(circle at top left, rgba(74, 144, 226, 0.14), transparent 26%),
         radial-gradient(circle at bottom right, rgba(74, 144, 226, 0.08), transparent 24%),
@@ -68,7 +68,7 @@ p.section-text {
 body,
 button,
 a {
-    font: 100%/1.6 'Poppins', sans-serif;
+    font: 100%/1.6 'GT Flexa Mono', monospace;
 }
 
 img,
